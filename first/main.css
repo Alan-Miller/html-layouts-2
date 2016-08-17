@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  /*background: yellow;*/
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  margin-top: 30px;
+}
+.header-div {
+  height: 100%;
+  width: 30%;
+  /*margin: 0px;*/
+  /*margin-top: 30px;*/
+  /*border: 10px solid #dedede;*/
+  /*position: absolute;*/
+  display: inline-block;
+  /*margin: 10px;*/
+  /*top: 50px;*/
+  text-align: center;
+  float: left;
+}
+.header-div.blue {
+  float: none;
+}
+.header-div.gray {
+  /*margin-left: 4%;*/
+  /*margin-right: 4%;*/
+  float: right;
+}
+
+.text-section {
+  display: inline-block;
+  /*width: 100vw - calc(100vw * 3 / 72);*/
+  width: 100%;
+  margin: 30px 0px;
+  font-size: 1.4em;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+.mid-section {
+  width: 100%;
+  height: 400px;
+  /*background: red;*/
+}
+.mid-section-aside {
+  /*background: green;*/
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+.mid-section-div {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+}
+
+footer {
+  height: 180px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+
+.footer-div.blue {
+  width: calc(100% - 300px);
+  height: 100%;
+  float: left;
+}
+.footer-div.red {
+  width: 50px;
+  height: 100%;
+  float: right;
+}
+.footer-div.gray {
+  width: 200px;
+  height: 100%;
+  float: right;
+}
+
+.red {
+  background: #D0021B;
+}
+.blue {
+  background: #4A90E2;
+}
+.gray {
+  background: #4A4A4A;
+}
+.white, html {
+  background: #dedede;
+}
